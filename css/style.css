@@ -517,8 +517,8 @@ body.section-show .transition-mask:before{
 	text-transform:lowercase;
 }
 .front-person-titles > .t1{
-	left:5px;
-	bottom:0;
+	left:-5px;
+	bottom: 0px;
 	-webkit-transform:rotate(-90deg) translateY(-100%);
 	-moz-transform:rotate(-90deg) translateY(-100%);
 	-ms-transform:rotate(-90deg) translateY(-100%);
@@ -529,24 +529,27 @@ body.section-show .transition-mask:before{
 	-ms-transform-origin:0% 0%;
 	-o-transform-origin:0% 0%;
 	transform-origin:0% 0%;
+	color:black;
 }
 .front-person-titles > .t2{
-	top:5px;
-	left:0;
+	top:-5px;
+	left:0px;
 	-webkit-transform:translateY(-100%);
 	-moz-transform:translateY(-100%);
 	-ms-transform:translateY(-100%);
 	-o-transform:translateY(-100%);
 	transform:translateY(-100%);
+	color:black;
 }
 .front-person-titles > .t3{
-	left:0;
-	bottom:5px;
+	left: -5px;
+	bottom: -5px;
 	-webkit-transform:translateY(100%) rotate(180deg);
 	-moz-transform:translateY(100%) rotate(180deg);
 	-ms-transform:translateY(100%) rotate(180deg);
 	-o-transform:translateY(100%) rotate(180deg);
 	transform:translateY(100%) rotate(180deg);
+	color:black;
 }
 
 
