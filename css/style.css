@@ -711,7 +711,7 @@ body.section-show .transition-mask:before{
 .funfacts-block{
 	padding-top:60px;
 	padding-bottom:20px;
-	background-image:url(../img/bg-funfacts.jpg);
+	background-image:url(../img/facts.png);
 	background-size:cover;
 	background-attachment:fixed;
 }
